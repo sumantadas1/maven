@@ -18,6 +18,8 @@
           <module>game-of-life</module>
 	</modules>
 
+
+
 	<distributionManagement>
 	  <snapshotRepository>
 	    <id>nexus-snapshots</id>
