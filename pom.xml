@@ -4,7 +4,7 @@
 	<groupId>com.testdouble</groupId>
 	<artifactId>test-training</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<name>test-training</name>
         <url>https://github.com/testdouble/contributing-tests/wiki</url>
 	<modules>
@@ -17,4 +17,16 @@
           <module>gilded-rose</module>
           <module>game-of-life</module>
 	</modules>
+
+	<distributionManagement>
+	  <snapshotRepository>
+	    <id>nexus-snapshots</id>
+	    <url>http://ec2-52-66-206-124.ap-south-1.compute.amazonaws.com:8081/repository/maven2_snapshots/</url>
+	  </snapshotRepository>
+	  <repository>
+	    <id>nexus-releases</id>
+	    <url>http://ec2-52-66-206-124.ap-south-1.compute.amazonaws.com:8081/repository/maven2_releases/</url>
+	  </repository>
+	</distributionManagement>
+
 </project>
