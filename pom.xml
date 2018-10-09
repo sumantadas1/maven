@@ -19,7 +19,6 @@
 	</modules>
 
 
-
 	<distributionManagement>
 	  <snapshotRepository>
 	    <id>nexus-snapshots</id>
